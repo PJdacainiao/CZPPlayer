@@ -1,2 +1,2 @@
 # CZPPlayer
-A music player based on Qt
+Qt-based music player
