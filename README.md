@@ -32,6 +32,7 @@
 * 在线更新
 * 不同播放模式
 * 人性化配置
+* QML美化
 
 #### Reference
 * http://blog.csdn.net/playstudy/article/details/8027892
