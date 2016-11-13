@@ -1,0 +1,64 @@
+/************************************************QSlider#seekSlider***************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+QSlider::groove:horizontal {
+	border-left: -8px solid;
+	background: rgba(0,0,0,0);
+	height: 4px;
+	border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal {
+	background:url(:/image/progress2.bmp);
+	border: 0px solid #777;
+	height: 4px;
+	border-radius: 0px;
+}
+
+QSlider::add-page:horizontal {
+	background: rgba(0,0,0,0);
+	border: 0px solid #777;
+	height: 4px;
+	border-radius: 0px;
+}
+
+QSlider::handle:horizontal {
+
+	border: 0px solid #777;
+	width: 28px;
+	height: 28px;
+	border-left:0px;
+	margin-top: -12px;
+	margin-bottom: -12px;
+	border-radius: 4px;
+}
+
+QSlider::handle:horizontal:!hover {
+	border-image:url(:/image/progress_thumb_1.png);
+	border: 0px solid #444;
+	border-radius: 4px;
+}
+
+QSlider::handle:horizontal:hover {
+	border-image:url(:/image/progress_thumb_2.png);
+	border: 0px solid #444;
+	border-radius: 4px;
+}
+QSlider::handle:horizontal:pressed {
+	border-image:url(:/image/progress_thumb_3.png);
+	border: 0px solid #444;
+	border-radius: 4px;
+}
+
+QSlider::handle:horizontal:disabled {
+	border-image:url(:/image/progress_thumb_1.png);
+	border: 0px solid #444;
+	border-radius: 0px;
+}
+/************************************************************************************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/

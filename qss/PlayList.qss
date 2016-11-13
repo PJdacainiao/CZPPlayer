@@ -1,0 +1,247 @@
+
+QListView::item{
+	height:24px;
+}
+QListView {
+     alternate-background-color: rgb(2,2,255);
+     background: rgb(230,242,255);
+ }
+
+QListView::item:focus{padding:-2;}
+QListView::item:selected {
+	color:rgb(49,112,174);
+     border:1px solid rgb(49,112,174);
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 rgb(153,209,252), stop: 1 rgb(223,239,254));
+ }
+
+ QListView::item:selected:!active {
+	color:rgb(49,112,174);
+      border:1px solid rgb(49,112,174);
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 rgb(153,209,252), stop: 1 rgb(223,239,254));
+    
+ }
+
+ QListView::item:selected:active {
+      border:1px solid rgb(49,112,174);
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 rgb(153,209,252), stop: 1 rgb(223,239,254));
+     color:rgb(49,112,174);
+ }
+
+ QListWidget::item{
+	height:24px;
+}
+QListWidget {
+     alternate-background-color: rgb(241,249,255);
+     background: rgb(230,242,255);
+ }
+
+QListWidget::item:focus{padding:-2;}
+QListWidget::item:selected {
+	color:rgb(49,112,174);
+     border:1px solid rgb(49,112,174);
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 rgb(153,209,252), stop: 1 rgb(223,239,254));
+ }
+
+ QListWidget::item:selected:!active {
+	color:rgb(49,112,174);
+      border:1px solid rgb(49,112,174);
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 rgb(153,209,252), stop: 1 rgb(223,239,254));
+    
+ }
+
+ QListWidget::item:selected:active {
+      border:1px solid rgb(49,112,174);
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 rgb(153,209,252), stop: 1 rgb(223,239,254));
+     color:rgb(49,112,174);
+ }
+
+ QListView::item:hover {
+     background: rgb(241,249,255);
+ }
+
+
+QScrollBar:vertical {
+      border-left: 3px solid rgba(0,0,0,0);
+      border-right: 1px solid rgba(0,0,0,0);
+      background: rgba(0,0,0,0);
+      width: 13px;
+      margin: 8px 0 8px 0;
+  }
+  QScrollBar::handle:vertical:!hover {
+      background: rgb(207,230,245);
+      min-height: 40px;
+
+  }
+  QScrollBar::handle:vertical:hover {
+      background: rgb(172,204,225);
+      min-height: 40px;
+
+  }
+   QScrollBar::handle:vertical:pressed {
+      background: rgb(172,204,225);
+      min-height: 40px;
+
+  }
+  QScrollBar::add-line:vertical {
+      border: 0px solid grey;
+      background: rgba(0,0,0,0);
+      height: 8px;
+      subcontrol-position: bottom;
+      subcontrol-origin: margin;
+  }
+
+  QScrollBar::sub-line:vertical {
+      margin:0px;
+      border: 0px solid grey;
+      background: rgba(0,0,0,0);
+      height: 8px;
+      subcontrol-position: top;
+      subcontrol-origin: margin;
+  }
+  QScrollBar::up-arrow:vertical:!hover {
+	border:0px solid;
+	width:13px;
+	height:8px;
+        background-image:url(:/image/scrollbar_button_up_1.png);
+  }
+   QScrollBar::up-arrow:vertical:hover {
+	border:0px solid;
+	margin:0px;
+	width:13px;
+	height:8px;
+      background-image:url(:/image/scrollbar_button_up_2.png);
+  }
+   QScrollBar::down-arrow:vertical:!hover{
+	border:0px solid;
+	margin:0px;
+	width:13px;
+	height:8px;
+	background-image:url(:/image/scrollbar_button_down_1.png);
+   }
+  QScrollBar::down-arrow:vertical:hover{
+	border:0px solid;
+	margin:0px;
+	width:13px;
+	height:8px;
+	background-image:url(:/image/scrollbar_button_down_2.png);
+   }
+
+
+  QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+      background: none;
+  }
+
+ QPushButton#btnFile:!hover{
+	border-image:url(:/image/playlist_toolbar_addfile.png);
+ }
+  QPushButton#btnFile:hover{
+	border-image:url(:/image/playlist_toolbar_hot_addfile.png);
+ }
+ QPushButton#btnFile:pressed{
+	border-image:url(:/image/playlist_toolbar_hot_addfile.png);
+ }
+ QPushButton#btnFile::menu-indicator{
+	border:0px;
+ }
+
+
+ QPushButton#btnDelete:!hover{
+	border-image:url(:/image/playlist_toolbar_delete.png);
+ }
+  QPushButton#btnDelete:hover{
+	border-image:url(:/image/playlist_toolbar_hot_delete.png);
+ }
+ QPushButton#btnDelete:pressed{
+	border-image:url(:/image/playlist_toolbar_hot_delete.png);
+ }
+  QPushButton#btnDelete::menu-indicator{
+	border:0px;
+ }
+
+ QPushButton#btnList:!hover{
+	border-image:url(:/image/playlist_toolbar_list.png);
+ }
+  QPushButton#btnList:hover{
+	border-image:url(:/image/playlist_toolbar_hot_list.png);
+ }
+ QPushButton#btnList:pressed{
+	border-image:url(:/image/playlist_toolbar_hot_list.png);
+ }
+   QPushButton#btnList::menu-indicator{
+	border:0px;
+ }
+
+
+ QPushButton#btnSort:!hover{
+	border-image:url(:/image/playlist_toolbar_sort.png);
+ }
+  QPushButton#btnSort:hover{
+	border-image:url(:/image/playlist_toolbar_hot_sort.png);
+ }
+ QPushButton#btnSort:pressed{
+	border-image:url(:/image/playlist_toolbar_hot_sort.png);
+ }
+ QPushButton#btnSort::menu-indicator{
+	border:0px;
+ }
+
+
+  QPushButton#btnFind:!hover{
+	border-image:url(:/image/playlist_toolbar_find.png);
+ }
+  QPushButton#btnFind:hover{
+	border-image:url(:/image/playlist_toolbar_hot_find.png);
+ }
+ QPushButton#btnFind:pressed{
+	border-image:url(:/image/playlist_toolbar_hot_find.png);
+ }
+   QPushButton#btnFind::menu-indicator{
+	border:0px;
+ }
+ QPushButton#btnEdit:!hover{
+	border-image:url(:/image/playlist_toolbar_edit.png);
+ }
+  QPushButton#btnEdit:hover{
+	border-image:url(:/image/playlist_toolbar_hot_edit.png);
+ }
+ QPushButton#btnEdit:pressed{
+	border-image:url(:/image/playlist_toolbar_hot_edit.png);
+ }
+   QPushButton#btnEdit::menu-indicator{
+	border:0px;
+ }
+
+
+  QPushButton#btnMode:!hover{
+	border-image:url(:/image/playlist_toolbar_mode.png);
+ }
+  QPushButton#btnMode:hover{
+	border-image:url(:/image/playlist_toolbar_hot_mode.png);
+ }
+ QPushButton#btnMode:pressed{
+	border-image:url(:/image/playlist_toolbar_hot_mode.png);
+ }
+   QPushButton#btnMode::menu-indicator{
+	border:0px;
+ }
+
+
+ QPushButton#btnClose:!hover{
+	border-image:url(:/image/close_unhover.png);
+ }
+  QPushButton#btnClose:hover{
+	border-image:url(:/image/close_hover.png);
+ }
+ QPushButton#btnClose:pressed{
+	border-image:url(:/image/close_press.png);
+ }
+ QPushButton#btnClose:focus{padding:-1;}
+ QPushButton#btnClose::menu-indicator{
+	border:0px;
+ }

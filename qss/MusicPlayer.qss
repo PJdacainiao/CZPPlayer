@@ -1,0 +1,202 @@
+QPushButton#BtnClose:!hover
+{
+	border-image: url(:/image/close_unhover.png);
+}
+QPushButton#BtnClose:hover
+{
+	border-image: url(:/image/close_hover.png);
+}
+QPushButton#BtnClose:pressed
+{
+	border-image: url(:/image/close_press.png);
+}
+QPushButton#BtnClose:focus{padding:-1;}
+
+QPushButton#BtnMin:!hover
+{
+	border-image: url(:/image/minimize_unhover.png);
+}
+QPushButton#BtnMin:hover
+{
+	border-image: url(:/image/minimize_hover.png);
+}
+QPushButton#BtnMin:pressed
+{
+	border-image: url(:/image/minimize_press.png);
+}
+QPushButton#BtnMin:focus{padding:-1;}
+
+QPushButton#BtnNext:!hover
+{
+	border-image: url(:/image/next_unhover.png);
+}
+QPushButton#BtnNext:hover
+{
+	border-image: url(:/image/next_hover.png);
+}
+QPushButton#BtnNext:pressed
+{
+	border-image: url(:/image/next_press.png);
+}
+QPushButton#BtnNext:focus{padding:-1;}
+
+QPushButton#BtnPrev:!hover
+{
+	border-image: url(:/image/prev_unhover.png);
+}
+QPushButton#BtnPrev:hover
+{
+	border-image: url(:/image/prev_hover.png);
+}
+QPushButton#BtnPrev:pressed
+{
+	border-image: url(:/image/prev_press.png);
+}
+QPushButton#BtnPrev:focus{padding:-1;}
+
+
+
+QPushButton#BtnPause:!hover
+{
+	border-image: url(:/image/pause_unhover.png);
+}
+QPushButton#BtnPause:hover
+{
+	border-image: url(:/image/pause_hover.png);
+}
+QPushButton#BtnPause:pressed
+{
+	border-image: url(:/image/pause_press.png);
+}
+QPushButton#BtnPause:focus{padding:-1;}
+
+
+QPushButton#btnPlayList:!hover
+{
+	border-image: url(:/image/playlist_1.png);
+}
+QPushButton#btnPlayList:hover
+{
+	border-image: url(:/image/playlist_2.png);
+}
+QPushButton#btnPlayList:pressed
+{
+	border-image: url(:/image/playlist_3.png);
+}
+QPushButton#btnPlayList:checked
+{
+	border-image: url(:/image/playlist_3.png);
+}
+QPushButton#btnPlayList:checked:pressed
+{
+	border-image: url(:/image/playlist_1.png);
+}
+QPushButton#btnPlayList:focus{padding:-1;}
+
+
+QPushButton#btnLyric:!hover
+{
+	border-image: url(:/image/lyric_1.png);
+}
+QPushButton#btnLyric:hover
+{
+	border-image: url(:/image/lyric_2.png);
+}
+QPushButton#btnLyric:pressed
+{
+	border-image: url(:/image/lyric_3.png);
+}
+QPushButton#btnLyric:checked{
+	border-image: url(:/image/lyric_3.png);
+}
+QPushButton#btnLyric:checked:pressed{
+	border-image: url(:/image/lyric_1.png);
+}
+QPushButton#btnLyric:focus{padding:-1;}
+
+QPushButton#btnBrowser:!hover
+{
+	border-image: url(:/image/browser_1.png);
+}
+QPushButton#btnBrowser:hover
+{
+	border-image: url(:/image/browser_2.png);
+}
+QPushButton#btnBrowser:pressed
+{
+	border-image: url(:/image/browser_3.png);
+}
+QPushButton#btnBrowser:checked{
+	border-image: url(:/image/browser_3.png);
+}
+QPushButton#btnBrowser:checked:pressed{
+	border-image: url(:/image/browser_1.png);
+}
+QPushButton#btnBrowser:focus{padding:-1;}
+
+
+/************************************************QSlider#volumeControl***************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+QSlider#volumeControl::groove:horizontal {
+	border: 0px solid #bbb;
+	background: rgba(0,0,0,0);
+	height: 4px;
+	border-radius: 4px;
+}
+
+QSlider#volumeControl::sub-page:horizontal {
+	background:url(:/image/progress2.bmp);
+	border: 0px solid #777;
+	height: 4px;
+	border-radius: 4px;
+}
+
+QSlider#volumeControl::add-page:horizontal {
+	background: rgba(0,0,0,0);
+	border: 0px solid #777;
+	height: 4px;
+	border-radius: 4px;
+}
+
+QSlider#volumeControl::handle:horizontal {
+
+	border: 0px solid #777;
+	width: 12px;
+	height: 12px;
+	margin-top: -4px;
+	margin-bottom: -4px;
+	border-radius: 4px;
+}
+
+QSlider#volumeControl::handle:horizontal:!hover {
+	border-image:url(:/image/v_thumb_1.png);
+	border: 0px solid #444;
+	border-radius: 4px;
+}
+
+QSlider#volumeControl::handle:horizontal:hover {
+	border-image:url(:/image/v_thumb_2.png);
+	border: 0px solid #444;
+	border-radius: 4px;
+}
+QSlider#volumeControl::handle:horizontal:pressed {
+	border-image:url(:/image/v_thumb_3.png);
+	border: 0px solid #444;
+	border-radius: 4px;
+}
+
+QSlider#volumeControl::handle:horizontal:disabled {
+	background: #eee;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+}
+/************************************************************************************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+
+
