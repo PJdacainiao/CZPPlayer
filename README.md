@@ -33,6 +33,7 @@
 * 不同播放模式
 * 人性化配置
 * QML美化
+* 登录功能
 
 #### Reference
 * http://blog.csdn.net/playstudy/article/details/8027892
