@@ -16,8 +16,9 @@
 ### 主界面
 ![image](https://github.com/positiveczp/CZPPlayer/raw/master/screenshots/主界面.png)
 
-
-
+### 该播放器目前存在的两个Bug(希望大家能够进行修补或者与我联系：positive_ping@sjtu.edu.cn)
+* 打卡播放器是mini界面跟播放列表会分开，没有合并在一起，需要点击mini界面来进行合并
+* 当打开其他窗口是播放列表会被覆盖
 
 
 
