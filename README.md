@@ -13,7 +13,7 @@
 
 ### mini界面
 ![image](https://github.com/positiveczp/CZPPlayer/raw/master/screenshots/mini界面.png)
-### mini界面
+### 主界面
 ![image](https://github.com/positiveczp/CZPPlayer/raw/master/screenshots/主界面.png)
 
 
