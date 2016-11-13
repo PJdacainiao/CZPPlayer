@@ -7,15 +7,7 @@
 * 列表隐藏和显示
 * 主界面&mini界面
 * 添加播放列表
-* 
+* 从本地批量导入歌曲
 
-
-
-
-
-
-
-
-
-### 开始界面
-![image](https://github.com/positiveczp/Snake/raw/master/images/开始界面.png)
+### mini界面
+![image](https://github.com/positiveczp/CZPPlayer/raw/master/screenshots/mini界面.png)
