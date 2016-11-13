@@ -49,9 +49,9 @@
 * https://github.com/chxuan/CZPlayer
 * http://www.qtcn.org/bbs/read-htm-tid-59998.html
 * https://github.com/AchillesL/QT
-* 
-* 
-* 
+* http://www.cnblogs.com/xiongmao-cpp/p/4806630.html
+* http://wenku.baidu.com/link?url=71dwWH7DFAHXenY6a0Hay88u2EF7uJlH0U00Q7f-_u2hDsMMFyf2Tjhi0mAJ0PqD_LaHqwUgKT0B0lmpIQB3-neF5kWVAr9tkHJpuQLaOnK
+* http://www.doc88.com/p-7408841954066.html
 
 
 
