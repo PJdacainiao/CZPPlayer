@@ -1,3 +1,10 @@
+/********************************
+* author: czp  positive_ping@sjtu.edu.cn
+* project: 基于Qt的音乐播放器
+*
+***********************************/
+
+
 #include "music.h"
 #include <QApplication>
 #include <QTextCodec>
