@@ -1,4 +1,4 @@
-# 在[CZPPlayer](https://github.com/positiveczp/CZPPlayer/tree/master/CZPPlayer)
+# 在[CZPPlayer](https://github.com/positiveczp/CZPPlayer/tree/master/CZPPlayer)的基础上，利用QMediaPlayer和QMediaPlayerList两个类实现了系统托盘&最小化&不同播放模式的功能
 
 
 
