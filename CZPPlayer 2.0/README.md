@@ -1,4 +1,4 @@
-# CZPPlayer
+# CZPPlayer 2.0
 
 ### 在[CZPPlayer](https://github.com/positiveczp/CZPPlayer/tree/master/CZPPlayer)的基础上，利用QMediaPlayer和QMediaPlayerList两个类实现了系统托盘&最小化&不同播放模式(循环播放，单曲循环，随机播放，顺序播放)的功能
 
