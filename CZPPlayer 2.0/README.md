@@ -6,16 +6,8 @@
 ![image](https://github.com/positiveczp/CZPPlayer/raw/master/CZPPlayer 2.0/images/最小化.png)
 ### 主界面
 ![image](https://github.com/positiveczp/CZPPlayer/raw/master/CZPPlayer 2.0/images/主界面.png)
-
-
-
-
-
-
-
-
-
-
+### 主界面
+![image](https://github.com/positiveczp/CZPPlayer/raw/master/CZPPlayer 2.0/images/菜单栏.png)
 
 
 #### Reference
